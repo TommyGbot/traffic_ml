@@ -10,6 +10,24 @@ import pandas as pd
 from datetime import datetime, timedelta
 import random
 
+st.markdown(
+    """
+    <div style='
+        background-color:#f0f0f0;
+        border-radius:10px;
+        padding:10px 15px;
+        margin-bottom:20px;
+        font-size:13px;
+        color:#444;
+    '>
+    <b>Disclaimer:</b><br>
+    Tool used: ChatGPT (GPT-4 or newer)<br>
+    Purpose: Ask how to import XGBoost and define the model. To help encode categorical variables.
+      General debugging.  How to write in html
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 st.title('Traffic Volume Predictor') 
 
